@@ -20,4 +20,13 @@ Next meeting: 18.11.2021 17:00
 
 **Meeting 18.11.2021**
 
-- 
+- We have made some predictions for data loaded from Meteo
+- Mart found the closest function for the radiation flux means
+- Heidi made data cleansing and trained the cleaned data with Random Forest 
+
+Prediction ideas
+- Let's try to predict by month or by season. E.g fit june, predict june.
+- Let's try XGBoost
+- Heidi creates the function for data cleansing that everybody can use the same set of data.
+
+Next meeting 25.11.2021 17:00
