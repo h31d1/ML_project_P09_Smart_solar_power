@@ -36,3 +36,5 @@ Next meeting 25.11.2021 17:00
 - During meeting we dealt with cleansing of the files Mart uploaded to git and we ran the Random Forest on it.
 - Siim found some sources where we could get the cloudiness values for predictions. Need to use API.
 - No other models yet tried.
+- Siim will contact Ott Kekišev to ask more data for predictions as it is not enough to predict the radiation flux. 
+  We need also the cloudiness rate and the coefficient of the solar panel.
