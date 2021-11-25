@@ -30,3 +30,9 @@ Prediction ideas
 - Heidi creates the function for data cleansing that everybody can use the same set of data.
 
 Next meeting 25.11.2021 17:00
+
+**Meeting 25.11.2021**
+
+- During meeting we dealt with cleansing of the files Mart uploaded to git and we ran the Random Forest on it.
+- Siim found some sources where we could get the cloudiness values for predictions. Need to use API.
+- No other models yet tried.
