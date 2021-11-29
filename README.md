@@ -3,9 +3,14 @@ The project P09 "Smart Solar Power" for Machine Learning course 2021/2022 autumn
 
 **Description**:
 
->> Electricity and solar power are hot topics at the moment.
+> Electricity and solar power are hot topics at the moment.
 
 Our idea was to take the weather satellite data (from https://www.ilmateenistus.ee/ilm/ilmavaatlused/satelliidipildid/infrapunane-pilt/  or some other data source from that page e.g radar images or natural colors images) and bring the localisation together with the locations of the weather stations (https://meteo.physic.ut.ee/). The data about how much of solar intensity (How many watts per a measurement unit/meter ) there is currently. Per the data perhaps it would be possible to predict the cloudiness in some x,y coordinates in the near future and then predict the solar intensity for that time. The goal is to predict the amount of electricity that can be produced from solar panels, expectedly by small, 5 -minute intervals. This could be used by a "really smart washing machine" that knows the current market price for electricity and also know how much each washing cycle or water heating will cost and perhaps waits for the 10 minutes for when the cheaper electricity may be available from the solar panels on the roof.
+
+Members:
+- Heidi Carolina Martinsaari
+- Mart Traagel
+- Siim Suitslepp
 
 
 **Meeting 11.11.2021**
