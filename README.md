@@ -67,4 +67,4 @@ Next meeting 25.11.2021 17:00
   - We have to know what is a walk-forward validation: [LINK to validation possibilities](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
 - After reading materials, please experiment with the code in github: **ARIMA.ipynb**
 - If we are ready with predicting, lets do somekind of pipeline or procedure.. 
-- 
+- Meeting with project owner!!! Siim will write an e-mail.
