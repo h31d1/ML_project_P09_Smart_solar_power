@@ -50,3 +50,20 @@ Next meeting 25.11.2021 17:00
 - No other models yet tried.
 - Siim will contact Ott Kekišev to ask more data for predictions as it is not enough to predict the radiation flux. 
   We need also the cloudiness rate and the coefficient of the solar panel.
+
+  **Meeting 2.12.2021**
+
+  - We had a short meeting where we discussed the idea of project again:
+    - Data of solar radiation should be loaded somewhere continuosly for the coordinate needed.
+    - **Our task** is to create the prediction calculations for the data to forecast the solar intensity.
+    - Solar intensity amount and the parameters of solar panels are the input for calculating the energy product.
+    - Based on future energy production and future energy price the decisions are made.
+  - For predicting solar radiance is better to use ARIMA model for time series model.
+    - Random Forest as before is not possible to use as we do not have future information about other parameters also.
+    - (Timestamp and) Radiation Flux to time series and predictions on it. Worked!
+  - So, to use the ARIMA model:
+    - We have to know what is it: [LINK to topic in general](https://www.sauga.pri.ee/portfolio/EconometricsLectureStationaryTS.pdf)
+    - How to use it: [LINK to code example](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/) and [LINK to documentation](https://www.statsmodels.org/dev/generated/statsmodels.tsa.arima.model.ARIMA.html?highlight=arima#statsmodels.tsa.arima.model.ARIMA)
+    - We have to know what is a walk-forward validation: [LINK to validation possibilities](https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/)
+  - After reading materials, please experiment with the code in github: **ARIMA.ipynb**
+  - If we are ready with predicting, lets do somekind of pipeline or procedure.. 

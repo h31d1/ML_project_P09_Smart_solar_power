@@ -105,11 +105,45 @@
 <p>Next meeting 25.11.2021 17:00</p>
 <p><strong>Meeting 25.11.2021</strong></p>
 <ul>
-<li>During meeting we dealt with cleansing of the files Mart uploaded to git and we ran the Random Forest on it.</li>
-<li>Siim found some sources where we could get the cloudiness values for predictions. Need to use API.</li>
-<li>No other models yet tried.</li>
-<li>Siim will contact Ott Kekišev to ask more data for predictions as it is not enough to predict the radiation flux.
-We need also the cloudiness rate and the coefficient of the solar panel.</li>
+<li>
+<p>During meeting we dealt with cleansing of the files Mart uploaded to git and we ran the Random Forest on it.</p>
+</li>
+<li>
+<p>Siim found some sources where we could get the cloudiness values for predictions. Need to use API.</p>
+</li>
+<li>
+<p>No other models yet tried.</p>
+</li>
+<li>
+<p>Siim will contact Ott Kekišev to ask more data for predictions as it is not enough to predict the radiation flux.
+We need also the cloudiness rate and the coefficient of the solar panel.</p>
+<p><strong>Meeting 2.12.2021</strong></p>
+<ul>
+<li>We had a short meeting where we discussed the idea of project again:
+<ul>
+<li>Data of solar radiation should be loaded somewhere continuosly for the coordinate needed.</li>
+<li><strong>Our task</strong> is to create the prediction calculations for the data to forecast the solar intensity.</li>
+<li>Solar intensity amount and the parameters of solar panels are the input for calculating the energy product.</li>
+<li>Based on future energy production and future energy price the decisions are made.</li>
+</ul>
+</li>
+<li>For predicting solar radiance is better to use ARIMA model for time series model.
+<ul>
+<li>Random Forest as before is not possible to use as we do not have future information about other parameters also.</li>
+<li>(Timestamp and) Radiation Flux to time series and predictions on it. Worked!</li>
+</ul>
+</li>
+<li>So, to use the ARIMA model:
+<ul>
+<li>We have to know what is it: <a href="https://www.sauga.pri.ee/portfolio/EconometricsLectureStationaryTS.pdf">LINK to topic in general</a></li>
+<li>How to use it: <a href="https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/">LINK to code example</a> and <a href="https://www.statsmodels.org/dev/generated/statsmodels.tsa.arima.model.ARIMA.html?highlight=arima#statsmodels.tsa.arima.model.ARIMA">LINK to documentation</a></li>
+<li>We have to know what is a walk-forward validation: <a href="https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/">LINK to validation possibilities</a></li>
+</ul>
+</li>
+<li>After reading materials, please experiment with the code in github: <strong>ARIMA.ipynb</strong></li>
+<li>If we are ready with predicting, lets do somekind of pipeline or procedure..</li>
+</ul>
+</li>
 </ul>
 
     </body>
