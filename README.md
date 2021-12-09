@@ -94,7 +94,7 @@ Next meeting 25.11.2021 17:00
 - Presentation time is 5 min
 - Let's have 1 slide per minute (only maybe moving elements)
 - Less is more: each slide should gain attention and make listen, each slide must be informative, but not in the meaning of text amount!
-  - The 1st slide: Process of project work: (1) learning the topic and looking at data (2) data investigation and gathering ideas (3) choosing the best model, and another (4) training, validation, testing, predicting (5) Making conclusions, gaining knowledge
+  - The 1st slide: Process of project work: (1) learning the topic and looking at data (2) data investigation and gathering ideas (3) learning different models and finding the best model (4) training, validation, testing, predicting (5) Making conclusions, gaining knowledge
   - The 2nd slide: What was (1) the goal (2) what data we had (3) what models and solutions we considered
   - The 3rd slide: What is ARIMA: (1) Meaning of AR=, I=, MA=... (2) Hyperparameters (3) History, fields, etc
   - The 4th slide: Issues and Results of training, validating and predicting
