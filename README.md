@@ -72,12 +72,21 @@ Next meeting 25.11.2021 17:00
 - Meeting with project owner!!! Siim will write an e-mail.
 
 
+**Meeting 9.12.2021**
+- We need to know:
+  - the exact meaning of ARIMA hyperparameters p, d, q
+  - do we need the SARIMAX seasonal_order=(P,D,Q,s) - what is the s? s=288?
+  - how to predict next 1 or 2 hours 
+- We need to do the walk forward valition on another and on the bigger data set.
+- Download fresher data (we now have the code to download the data directly from url) (need cleansing function also, just copy-paste)
+
+
 ## VISION OF PRODUCT
 - The goal is to predict solar radiation for next x hours/minutes.
 - Data is collected continuously for 5 minutes intervals from solar panels.
 - Data is given as timeseries of radiation.
 - Predictions are made on the freshest data in 5 minutes intervals. 
-- Predictions are made for the next 2 hours in 5 minutes intervals.
+- Predictions are made for the next 2 hours in 5 minutes intervals. ??
 - For predictions there is used ARIMA model: 
   - the prediction window is x minutes,
   - the lag is y minutes
@@ -88,6 +97,7 @@ Next meeting 25.11.2021 17:00
 - ARIMA model: https://www.statsmodels.org/devel/generated/statsmodels.tsa.arima.model.ARIMA.html
 - Learning materials for timeseries and ARIMA model: https://www.sauga.pri.ee/portfolio/EconometricsLectureStationaryTS.pdf
 - Short description and implementation of ARIMA: https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+- Walk-forward validation: https://machinelearningmastery.com/backtest-machine-learning-models-time-series-forecasting/
 -
 -----
 ### Ideas for presentation:
