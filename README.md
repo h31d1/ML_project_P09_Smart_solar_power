@@ -79,4 +79,4 @@ VISION OF PRODUCT
 - For predictions there is used ARIMA model: 
   - the prediction window is x minutes,
   - the lag is y minutes
-- Predicted radiation is compared with the relevant price of electricity for the same time interval.
+- Predicted radiation is compared with the relevant [price of electricity](https://www.nordpoolgroup.com/Market-data1/Dayahead/Area-Prices/EE/Hourly/?view=table) for the same time interval.
