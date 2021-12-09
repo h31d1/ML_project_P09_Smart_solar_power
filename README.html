@@ -55,17 +55,18 @@
     <body class="vscode-body vscode-light">
         <h1 id="ml_project_p09_smart_solar_power">ML_project_P09_Smart_solar_power</h1>
 <p>The project P09 &quot;Smart Solar Power&quot; for Machine Learning course 2021/2022 autumn</p>
-<p><strong>Description</strong>:</p>
+<h2 id="description">Description:</h2>
 <blockquote>
 <p>Electricity and solar power are hot topics at the moment.</p>
 </blockquote>
 <p>Our idea was to take the weather satellite data (from <a href="https://www.ilmateenistus.ee/ilm/ilmavaatlused/satelliidipildid/infrapunane-pilt/">Ilmateenistus</a>  or some other data source from that page e.g radar images or natural colors images) and bring the localisation together with the locations of the weather stations, e.g <a href="https://meteo.physic.ut.ee/">E-ilmajaam Tartus füüsikahoone katusel</a>. The data about how much of solar intensity (How many watts per a measurement unit/meter ) there is currently. Per the data perhaps it would be possible to predict the cloudiness in some x,y coordinates in the near future and then predict the solar intensity for that time. The goal is to predict the amount of electricity that can be produced from solar panels, expectedly by small, 5 -minute intervals. This could be used by a &quot;really smart washing machine&quot; that knows the current market price for electricity and also know how much each washing cycle or water heating will cost and perhaps waits for the 10 minutes for when the cheaper electricity may be available from the solar panels on the roof.</p>
-<p>Members:</p>
+<h3 id="members">Members:</h3>
 <ul>
 <li>Heidi Carolina Martinsaari</li>
 <li>Mart Traagel</li>
 <li>Siim Suitslepp</li>
 </ul>
+<h2 id="meetings">MEETINGS:</h2>
 <p><strong>Meeting 11.11.2021</strong></p>
 <ul>
 <li>Presentation discussion
@@ -138,7 +139,7 @@ We need also the cloudiness rate and the coefficient of the solar panel.</li>
 <li>If we are ready with predicting, lets do somekind of pipeline or procedure..</li>
 <li>Meeting with project owner!!! Siim will write an e-mail.</li>
 </ul>
-<p>VISION OF PRODUCT</p>
+<h2 id="vision-of-product">VISION OF PRODUCT</h2>
 <ul>
 <li>The goal is to predict solar radiation for next x hours/minutes.</li>
 <li>Data is collected continuously for 5 minutes intervals from solar panels.</li>
@@ -152,6 +153,31 @@ We need also the cloudiness rate and the coefficient of the solar panel.</li>
 </ul>
 </li>
 <li>Predicted radiation is compared with the relevant <a href="https://www.nordpoolgroup.com/Market-data1/Dayahead/Area-Prices/EE/Hourly/?view=table">price of electricity</a> for the same time interval.</li>
+<li></li>
+</ul>
+<hr>
+<h3 id="used-materials">Used materials:</h3>
+<ul>
+<li>ARIMA model: <a href="https://www.statsmodels.org/devel/generated/statsmodels.tsa.arima.model.ARIMA.html">https://www.statsmodels.org/devel/generated/statsmodels.tsa.arima.model.ARIMA.html</a></li>
+<li>Learning materials for timeseries and ARIMA model: <a href="https://www.sauga.pri.ee/portfolio/EconometricsLectureStationaryTS.pdf">https://www.sauga.pri.ee/portfolio/EconometricsLectureStationaryTS.pdf</a></li>
+<li>Short description and implementation of ARIMA: <a href="https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/">https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/</a></li>
+<li></li>
+</ul>
+<hr>
+<h3 id="ideas-for-presentation">Ideas for presentation:</h3>
+<ul>
+<li>Presentation time is 5 min</li>
+<li>Let's have 1 slide per minute (only maybe moving elements)</li>
+<li>Less is more: each slide should gain attention and make listen, each slide must be informative, but not in the meaning of text amount!
+<ul>
+<li>The 1st slide: Process of project work: (1) learning the topic and looking at data (2) data investigation and gathering ideas (3) choosing the best model, and another (4) training, validation, testing, predicting (5) Making conclusions, gaining knowledge</li>
+<li>The 2nd slide: What was (1) the goal (2) what data we had (3) what models and solutions we considered</li>
+<li>The 3rd slide: What is ARIMA: (1) Meaning of AR=, I=, MA=... (2) Hyperparameters (3) History, fields, etc</li>
+<li>The 4th slide: Issues and Results of training, validating and predicting</li>
+<li>The 5th slide: Final product what was ordered</li>
+</ul>
+</li>
+<li>&lt;&lt; Slides are ordered by the time</li>
 </ul>
 
     </body>

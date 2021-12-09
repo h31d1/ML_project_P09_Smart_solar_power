@@ -1,17 +1,19 @@
 # ML_project_P09_Smart_solar_power
 The project P09 "Smart Solar Power" for Machine Learning course 2021/2022 autumn
 
-**Description**:
+## Description:
 
 > Electricity and solar power are hot topics at the moment.
 
 Our idea was to take the weather satellite data (from [Ilmateenistus](https://www.ilmateenistus.ee/ilm/ilmavaatlused/satelliidipildid/infrapunane-pilt/)  or some other data source from that page e.g radar images or natural colors images) and bring the localisation together with the locations of the weather stations, e.g [E-ilmajaam Tartus füüsikahoone katusel](https://meteo.physic.ut.ee/). The data about how much of solar intensity (How many watts per a measurement unit/meter ) there is currently. Per the data perhaps it would be possible to predict the cloudiness in some x,y coordinates in the near future and then predict the solar intensity for that time. The goal is to predict the amount of electricity that can be produced from solar panels, expectedly by small, 5 -minute intervals. This could be used by a "really smart washing machine" that knows the current market price for electricity and also know how much each washing cycle or water heating will cost and perhaps waits for the 10 minutes for when the cheaper electricity may be available from the solar panels on the roof.
 
-Members:
+### Members:
 - Heidi Carolina Martinsaari
 - Mart Traagel
 - Siim Suitslepp
 
+
+## MEETINGS:
 
 **Meeting 11.11.2021**
 
@@ -70,7 +72,7 @@ Next meeting 25.11.2021 17:00
 - Meeting with project owner!!! Siim will write an e-mail.
 
 
-VISION OF PRODUCT
+## VISION OF PRODUCT
 - The goal is to predict solar radiation for next x hours/minutes.
 - Data is collected continuously for 5 minutes intervals from solar panels.
 - Data is given as timeseries of radiation.
@@ -80,3 +82,21 @@ VISION OF PRODUCT
   - the prediction window is x minutes,
   - the lag is y minutes
 - Predicted radiation is compared with the relevant [price of electricity](https://www.nordpoolgroup.com/Market-data1/Dayahead/Area-Prices/EE/Hourly/?view=table) for the same time interval.
+-
+------
+### Used materials:
+- ARIMA model: https://www.statsmodels.org/devel/generated/statsmodels.tsa.arima.model.ARIMA.html
+- Learning materials for timeseries and ARIMA model: https://www.sauga.pri.ee/portfolio/EconometricsLectureStationaryTS.pdf
+- Short description and implementation of ARIMA: https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/
+-
+-----
+### Ideas for presentation:
+- Presentation time is 5 min
+- Let's have 1 slide per minute (only maybe moving elements)
+- Less is more: each slide should gain attention and make listen, each slide must be informative, but not in the meaning of text amount!
+  - The 1st slide: Process of project work: (1) learning the topic and looking at data (2) data investigation and gathering ideas (3) choosing the best model, and another (4) training, validation, testing, predicting (5) Making conclusions, gaining knowledge
+  - The 2nd slide: What was (1) the goal (2) what data we had (3) what models and solutions we considered
+  - The 3rd slide: What is ARIMA: (1) Meaning of AR=, I=, MA=... (2) Hyperparameters (3) History, fields, etc
+  - The 4th slide: Issues and Results of training, validating and predicting
+  - The 5th slide: Final product what was ordered
+- << Slides are ordered by the time
