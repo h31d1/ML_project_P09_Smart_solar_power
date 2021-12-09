@@ -68,3 +68,15 @@ Next meeting 25.11.2021 17:00
 - After reading materials, please experiment with the code in github: **ARIMA.ipynb**
 - If we are ready with predicting, lets do somekind of pipeline or procedure.. 
 - Meeting with project owner!!! Siim will write an e-mail.
+
+
+VISION OF PRODUCT
+- The goal is to predict solar radiation for next x hours/minutes.
+- Data is collected continuously for 5 minutes intervals from solar panels.
+- Data is given as timeseries of radiation.
+- Predictions are made on the freshest data in 5 minutes intervals. 
+- Predictions are made for the next 2 hours in 5 minutes intervals.
+- For predictions there is used ARIMA model: 
+  - the prediction window is x minutes,
+  - the lag is y minutes
+- Predicted radiation is compared with the relevant price of electricity for the same time interval.

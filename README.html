@@ -138,6 +138,21 @@ We need also the cloudiness rate and the coefficient of the solar panel.</li>
 <li>If we are ready with predicting, lets do somekind of pipeline or procedure..</li>
 <li>Meeting with project owner!!! Siim will write an e-mail.</li>
 </ul>
+<p>VISION OF PRODUCT</p>
+<ul>
+<li>The goal is to predict solar radiation for next x hours/minutes.</li>
+<li>Data is collected continuously for 5 minutes intervals from solar panels.</li>
+<li>Data is given as timeseries of radiation.</li>
+<li>Predictions are made on the freshest data in 5 minutes intervals.</li>
+<li>Predictions are made for the next 2 hours in 5 minutes intervals.</li>
+<li>For predictions there is used ARIMA model:
+<ul>
+<li>the prediction window is x minutes,</li>
+<li>the lag is y minutes</li>
+</ul>
+</li>
+<li>Predicted radiation is compared with the relevant price of electricity for the same time interval.</li>
+</ul>
 
     </body>
     </html>
