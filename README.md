@@ -98,5 +98,5 @@ Next meeting 25.11.2021 17:00
   - The 2nd slide: What was (1) the goal (2) what data we had (3) what models and solutions we considered
   - The 3rd slide: What is ARIMA: (1) Meaning of AR=, I=, MA=... (2) Hyperparameters (3) History, fields, etc
   - The 4th slide: Issues and Results of training, validating and predicting
-  - The 5th slide: Final product what was ordered
+  - The 5th slide: Final product that was ordered
 - << Slides are ordered by the time
