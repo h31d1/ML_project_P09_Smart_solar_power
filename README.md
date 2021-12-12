@@ -81,6 +81,30 @@ Next meeting 25.11.2021 17:00
 - Download fresher data (we now have the code to download the data directly from url) (need cleansing function also, just copy-paste)
 
 
+**Meeting with project owner Ott Kekišev 10.12.2021**
+- We introduced our work progress and results to project owner (PO).
+- PO confirmed that our work was that he expected from teams.
+- PO described one more time the task. 
+- Important notes:
+  - The goal was to **try different models** and **find out if it's possible to predict** solar radiation.
+  - Proposed data from https://meteo.physic.ut.ee was the starting point for models.
+  - There was also proposed to use satellite pictures for predicting cloudiness. It would have been very useful to have them, but getting these figures in time was practically impossible.
+- We got some advices regarding models, presentation.
+- We got answers to our questions.
+
+
+**Meeting for conclusions 10.12.2021**
+- We decided to enhance our Tree models: RandomForest and ExtraTrees
+- We started a short competition: Who will get the best score and/or rmse? Deadline 11.12.2021 18:00.
+
+
+**Meeting 11.12.2021**
+- We shared our models.
+- We agreed to enhance little bit more the models.
+- On Sunday will be preparation for presentation.
+
+
+
 ## VISION OF PRODUCT
 - The goal is to predict solar radiation for next x hours/minutes.
 - Data is collected continuously for 5 minutes intervals from solar panels.
